@@ -101,6 +101,18 @@ section {
   margin-bottom: 0;
   color: #6f6f6f;
 }
+/*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+
+.solar-image-background {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 475px;
+  padding: 0;
+}
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -307,7 +319,7 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 80px;
   margin-right: 6px;
 }
 
