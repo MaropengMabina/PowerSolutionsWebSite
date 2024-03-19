@@ -106,6 +106,7 @@ section {
 --------------------------------------------------------------*/
 
 .solar-image-background {
+  background-image: url(/PowerSolutionsWebSite/assets/img/solarImage.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -831,6 +832,7 @@ section {
   border-radius: 15px;
   overflow: hidden;
 }
+
 
 .call-to-action h3 {
   color: #fff;
@@ -1879,11 +1881,21 @@ section {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+.hero-container {
+  /* max-width: 1320px;
+  height: 475px; */
+  padding: 0 0 0 0;
+
+  /* background-position: center; */
+}
+
 .hero {
-  width: 100%;
   position: relative;
   background: var(--color-primary);
-  padding: 60px 0 0 0;
+  padding: 0 0 0 0;
+  background-size: 100% 100%;
+  /* background-size: cover;
+  background-position: center; */
 }
 
 @media (min-width: 1365px) {
@@ -1903,6 +1915,14 @@ section {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   margin-bottom: 30px;
+}
+
+.voltage-image-background {
+  /* background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* height: 475px; */
+  padding: 0;
 }
 
 .hero .btn-get-started {
